@@ -2,25 +2,27 @@ from clients.courses.courses_client import get_courses_client, CreateCourseReque
 from clients.exercises.exercises_client import CreateExerciseRequestDict, get_exercises_client
 from clients.files.files_client import get_files_client, CreateFileRequestDict
 from clients.private_http_builder import AuthenticationUserSchema
-from clients.users.public_users_client import get_public_users_client, CreateUserRequestDict
+from clients.users.public_users_client import get_public_users_client
+# Вместо CreateUserRequestDict импортируем CreateUserRequestSchema
+from clients.users.users_schema import CreateUserRequestSchema
 from tools.fakers import get_random_email
 
 public_users_client = get_public_users_client()
 
 # Создаем пользователя
-create_user_request = CreateUserRequestDict(
+create_user_request = CreateUserRequestSchema(
     email=get_random_email(),
     password="string",
-    lastName="string",
-    firstName="string",
-    middleName="string"
+    last_name="string",  # Передаем аргументы в формате snake_case вместо camelCase
+    first_name="string",  # Передаем аргументы в формате snake_case вместо camelCase
+    middle_name="string"  # Передаем аргументы в формате snake_case вместо camelCase
 )
 create_user_response = public_users_client.create_user(create_user_request)
 
 # Инициализируем клиенты
 authentication_user = AuthenticationUserSchema(
-    email=create_user_request['email'],
-    password=create_user_request['password']
+    email=create_user_request.email,
+    password=create_user_request.password
 )
 files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
