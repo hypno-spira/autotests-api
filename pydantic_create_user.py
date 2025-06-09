@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field, EmailStr, constr
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 class UserSchema(BaseModel):
@@ -18,7 +18,7 @@ class CreateUserRequestSchema(BaseModel):
     """
     Pydantic-модель данных запроса на создание пользователя
     """
-    email: EmailStr = Field(default_factory=get_random_email)
+    email: EmailStr = Field(default_factory=fake.email)
     password: constr(min_length=6, max_length=15) = "qwerty12345"
     last_name: str = Field(alias="lastName", default="Bond")
     first_name: str = Field(alias="firstName", default="Zara")

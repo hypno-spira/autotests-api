@@ -1,10 +1,10 @@
 import httpx
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 # Создаем пользователя
 create_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
@@ -25,7 +25,7 @@ print("\nLogin data:", login_response_data)
 
 # Обновление данных запросом PATCH
 patch_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "lastName": "string_patch",
     "firstName": "string_patch",
     "middleName": "string"
