@@ -26,7 +26,7 @@ class TestUsers:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    def test_ger_user_me(
+    def test_get_user_me(
             self,
             function_user: UserFixture,
             private_users_client: PrivateUsersClient
