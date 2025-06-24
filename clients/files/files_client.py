@@ -1,5 +1,5 @@
-from httpx import Response
 import allure
+from httpx import Response
 
 from clients.api_client import APIClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
@@ -32,7 +32,7 @@ class FilesClient(APIClient):
         return self.post(
             "/api/v1/files",
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
-            files={"upload_file": open(request.upload_file, 'rb')}
+            files={"upload_file": request.upload_file.read_bytes()}
         )
 
     @allure.step("Delete file by id {file_id}")
