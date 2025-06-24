@@ -24,3 +24,7 @@ class Settings(BaseSettings):
 
     test_data: TestDataConfig
     http_client: HTTPClientConfig
+
+
+# Инициализируем настройки
+settings = Settings()
