@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjEzOjQ3LjQzODQ4NiIsInVzZXJfaWQiOiI5ZjdlZGQwZS0zMmU0LTQ2NWEtOTQ4NC05ZTJhNGI4M2UzOTYifQ._Fsdgu2Et3JiZtVcp4UJKdfI6SwVjgnLVHGGcy2-UK8' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest hour key into heart feel practice television.","maxScore":81,"minScore":27,"description":"Wonder thousand much force conference. Talk from listen fund. Political fund take action growth education another.","estimatedTime":"7 weeks","previewFileId":"db67eaca-1cbf-484c-9c8e-a6b5d61d9696","createdByUserId":"9f7edd0e-32e4-465a-9484-9e2a4b83e396"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjEzOjQ4LjY5MDMxOSIsInVzZXJfaWQiOiJiNjNiZjE1ZS02NzU5LTRkYmMtYjIzMS1kMDg4Y2ExZDVjMGUifQ.AZ_Zdt3MLCeFFeUJkkgGfzGXhR0ZlypLHc8o8zSFiGQ' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fine talk benefit national.","maxScore":53,"minScore":5,"description":"Debate soon specific woman bar consider can wrong. You conference until instead or several.","estimatedTime":"4 weeks","previewFileId":"c31b4380-3b02-4bb8-a4db-34c616ec6c62","createdByUserId":"b63bf15e-6759-4dbc-b231-d088ca1d5c0e"}'

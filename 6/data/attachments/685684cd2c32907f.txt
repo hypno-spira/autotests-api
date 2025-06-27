@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjEzOjQ0LjQ4MTE4OCIsInVzZXJfaWQiOiI3ODlmYjFmYS1hMDljLTQ2OTQtOWQxYS1mNWFjZTQwNDg4YjUifQ.dLKo6Jie4twVTOVKiTEL2YTouM0_ioCWFf0bV71osbg' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full customer minute reach.","maxScore":94,"minScore":20,"description":"Stuff modern fish daughter again. Serious response like bed fly.\nWhole total parent nothing up Congress enjoy. Special tax region yourself.\nKitchen travel record understand.","estimatedTime":"4 weeks","previewFileId":"5ae11b2a-38ca-4206-8ecd-1da3b5ddf8e5","createdByUserId":"789fb1fa-a09c-4694-9d1a-f5ace40488b5"}'

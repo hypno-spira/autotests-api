@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjEzOjQ1LjA2MTA4MSIsInVzZXJfaWQiOiI2NDYwYTUwYi1lNDhiLTQ0MGYtYjk5OS03ZTAxZjA4ZWI2N2UifQ.BLhhTjMsPH0_uz9DOSvLms0YW3W5igr1UVBbBsnh8A8' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Alone attack which all leader health watch.","maxScore":72,"minScore":13,"description":"Official let size take defense face method story. Blood phone property require by quite article between. We activity reflect where.","estimatedTime":"6 weeks","previewFileId":"bbc97040-2a7a-49ba-bfc1-a8d1f9bdca85","createdByUserId":"6460a50b-e48b-440f-b999-7e01f08eb67e"}'

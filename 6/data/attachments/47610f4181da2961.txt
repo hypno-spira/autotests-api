@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/56825a42-0448-4dbd-bab3-c9196a01987d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjEzOjQ1LjA2MTA4MSIsInVzZXJfaWQiOiI2NDYwYTUwYi1lNDhiLTQ0MGYtYjk5OS03ZTAxZjA4ZWI2N2UifQ.BLhhTjMsPH0_uz9DOSvLms0YW3W5igr1UVBbBsnh8A8' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do along within trade himself beautiful result expert.","maxScore":87,"minScore":27,"description":"Develop find brother edge series peace. Expect collection prepare tree expect order too. Herself fall receive wonder lot successful.\nPattern black there year line. On myself speech.","estimatedTime":"7 weeks"}'

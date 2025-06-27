@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjEzOjQ2Ljg2MDMxNiIsInVzZXJfaWQiOiIxMDBhYzFlZi02MDVjLTQxMzctYjIwOS02MDI2OTkwN2M5YWIifQ.dWEtKKr2Vl4yTZSD3-0MuhIkKkDjrd3vD2vn7DpjQpQ' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expect because candidate teacher.","maxScore":69,"minScore":6,"description":"Pull police eat now feel. Though scene section response tell cut state. Science learn have again.\nAlready walk technology. Night region big continue big him.","estimatedTime":"9 weeks","previewFileId":"a0127b42-e6cb-45f5-9366-f563ce32cc4f","createdByUserId":"100ac1ef-605c-4137-b209-60269907c9ab"}'

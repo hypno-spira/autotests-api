@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjEzOjQ1LjY5MjE5NiIsInVzZXJfaWQiOiIwN2EwMmRmNC03MjFjLTQxMzEtOTBiMC1kNGJiN2YwY2M1MDcifQ.gf100FM3eaDSyfvHXKZ_QCoxuewG7GO8G0nzlrQhD1c' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall tax probably explain.","maxScore":92,"minScore":1,"description":"Several moment war. Effort TV prepare difference stop political suddenly. Business role old foot team rate.\nPresent million law. General answer present lot once. Five scene reality.","estimatedTime":"5 weeks","previewFileId":"310b9877-befb-4c7d-85e4-47ef8b00039c","createdByUserId":"07a02df4-721c-4131-90b0-d4bb7f0cc507"}'
