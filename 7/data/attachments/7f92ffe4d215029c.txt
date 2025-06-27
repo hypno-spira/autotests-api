@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjA4LjkwOTgyNSIsInVzZXJfaWQiOiJhZTczZjY3YS0xNzc1LTQ5MDYtODg4MS00MjFlZjM0ODBkZTMifQ.gezH1nKpTaJRWGoA7MO-8_GbFUgiRjGrDrDyKLj-mjM' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community program section someone.","maxScore":67,"minScore":5,"description":"Enter so get a. Arm contain company no writer play. Between population interview positive serve catch western old.\nChance citizen book administration agency for end. Cut pay become board.","estimatedTime":"5 weeks","previewFileId":"db50b7cd-bac9-4e07-94d0-e3530d61e9d2","createdByUserId":"ae73f67a-1775-4906-8881-421ef3480de3"}'

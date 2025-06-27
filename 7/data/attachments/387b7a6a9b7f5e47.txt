@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjExLjA2OTAxNSIsInVzZXJfaWQiOiJkY2RkYjg3Yi1iYjExLTQ5NTctYmU1Ni1mNGVkZmRiODAwMWYifQ.1lkGT_qBju4TQGNPKkaKWccYe4u-MnITaovyjj_XwkQ' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark opportunity west whom civil.","maxScore":84,"minScore":5,"description":"Short return recently up. Boy identify turn save include new put sit. Power lawyer though example.\nOnce event someone have staff natural. Challenge seem meeting color cold position risk.","estimatedTime":"2 weeks","previewFileId":"6f8309c8-0984-4d60-a4ac-402e7b00c439","createdByUserId":"dcddb87b-bb11-4957-be56-f4edfdb8001f"}'

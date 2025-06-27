@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjEwLjEwNjcyNiIsInVzZXJfaWQiOiIyYmRkMDhhYy1mMGMwLTRjNTQtYjg0Yy1jODBiNWQxYWU5YzUifQ.8Jy_-5vWLRACmyajcgI7NI9uUJLTTpQGLKrvj7e2BR8' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Real operation action.","maxScore":85,"minScore":22,"description":"As bag fill allow this claim the customer. Get born pick impact fish save.\nManagement method indicate.","estimatedTime":"2 weeks","previewFileId":"ab53db6c-f4fe-460f-98f1-aa6e5225adde","createdByUserId":"2bdd08ac-f0c0-4c54-b84c-c80b5d1ae9c5"}'

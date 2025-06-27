@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/53a431dd-32a0-4f45-8289-fdfd49efa55c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjA3LjQyNzQ5MyIsInVzZXJfaWQiOiJkNWU5OTMyMS1kMzcxLTQwZDgtOTliNS03Yjk2ODBlOGJkNDYifQ.A5c1J6EjIFXVKD5LbGMPJydK1hhvLNl9Rrlzl3cambk' \
+  -H 'content-length: 235' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Million direction drive these education hotel no ten.","maxScore":76,"minScore":1,"description":"Suffer blood clear operation themselves seven place. Chair generation those respond be former shake.","estimatedTime":"6 weeks"}'

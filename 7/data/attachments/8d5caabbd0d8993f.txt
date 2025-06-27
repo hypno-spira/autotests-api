@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjA3LjcwMzgxMiIsInVzZXJfaWQiOiI3ZGI0NzQxOC1kZWFhLTQ3ODMtYTYxYS1jMjZkYWQyMzY3ODUifQ.qZaDVXqpHhcJ90fAdOuXM_4ZDkR3kZMvhxJeXNeiPqc' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According attorney own check.","maxScore":96,"minScore":15,"description":"Thank I set consider which. Meeting deal stuff adult.\nShow film whatever among memory by. Him degree increase game kid.\nCase truth value. Actually much commercial degree any.","estimatedTime":"7 weeks","previewFileId":"a0e8d5ef-eb0b-4797-8849-a522e6bc700c","createdByUserId":"7db47418-deaa-4783-a61a-c26dad236785"}'

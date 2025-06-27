@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjA5LjgzMjk0OCIsInVzZXJfaWQiOiIxYmIwNjlkZi0xODZiLTQ3MTctYTc3Ni0zNTUzNzcyOWVjYWQifQ.LKgJNQT6N7_GFKEc5upllCnJ44_Zoyg-GKq1kWLClyE' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Near front number how draw.","maxScore":88,"minScore":9,"description":"Term box think father out total possible past. Name lot decide he shake amount accept. As computer our participant low practice.\nCup simply start quality continue open including.","estimatedTime":"4 weeks","previewFileId":"1bbc378b-7edc-4c80-8d66-b11352a6786a","createdByUserId":"1bb069df-186b-4717-a776-35537729ecad"}'

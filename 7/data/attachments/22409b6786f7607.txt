@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjA4LjYzNjYxMSIsInVzZXJfaWQiOiJhMDZkMDA5Ny03N2Y0LTRhMmQtOWRlYi03ZDM3YmY5ZmJmYWIifQ.RtA0AzRxXAFanR0jD8N2zIiKzAxAZVuURDk4Es7a2Po' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kitchen else data rate into.","maxScore":78,"minScore":1,"description":"Bag determine record performance despite water him. Detail tree wish technology. For bad try must.\nSeat sometimes offer down firm space professional. Democrat view others.","estimatedTime":"7 weeks","previewFileId":"b5672167-4c7a-4780-8d7c-d0dffe015056","createdByUserId":"a06d0097-77f4-4a2d-9deb-7d37bf9fbfab"}'

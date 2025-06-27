@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjA3LjQyNzQ5MyIsInVzZXJfaWQiOiJkNWU5OTMyMS1kMzcxLTQwZDgtOTliNS03Yjk2ODBlOGJkNDYifQ.A5c1J6EjIFXVKD5LbGMPJydK1hhvLNl9Rrlzl3cambk' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same personal dark customer big.","maxScore":91,"minScore":22,"description":"Owner half down sing door respond. Character anything language we. Project enough treat both develop behind common.","estimatedTime":"9 weeks","previewFileId":"79a50dea-f434-452e-bea0-d436c38e3b6d","createdByUserId":"d5e99321-d371-40d8-99b5-7b9680e8bd46"}'

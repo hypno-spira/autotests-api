@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjEwLjEwNjcyNiIsInVzZXJfaWQiOiIyYmRkMDhhYy1mMGMwLTRjNTQtYjg0Yy1jODBiNWQxYWU5YzUifQ.8Jy_-5vWLRACmyajcgI7NI9uUJLTTpQGLKrvj7e2BR8' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Little us understand member approach room.","courseId":"807bc966-7995-4996-88df-6317154a335f","maxScore":89,"minScore":20,"orderIndex":66,"description":"Phone miss record fire imagine nearly this. Challenge democratic avoid budget account. Stand while year week.\nForward true still power son notice play. Him work enough remember bill my.","estimatedTime":"2 weeks"}'

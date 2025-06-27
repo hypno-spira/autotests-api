@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDE0OjE5OjA2LjI3MjUyMCIsInVzZXJfaWQiOiJmZjZlMzU5Zi0yNzFjLTRiZDMtYTU0Yi1iYmVjMzA5ZjA5YzUifQ.2gvcpgXeUI0jE9lw9htBFHAPajm0qB4r6OsLfIPczBU' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert PM take account day thing way.","maxScore":84,"minScore":13,"description":"Appear ball TV magazine respond do rate. Program minute adult kitchen social future low operation. Special hair treatment against always break subject.\nThem out moment. Right market market quite.","estimatedTime":"3 weeks","previewFileId":"69f4ca5f-9a7d-4527-8ed3-c182bc82f3f5","createdByUserId":"ff6e359f-271c-4bd3-a54b-bbec309f09c5"}'
