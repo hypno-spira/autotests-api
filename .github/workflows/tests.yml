@@ -60,6 +60,7 @@ jobs:
       - name: Save folder with Allure results
         uses: actions/upload-artifact@v4.6.2
         with:
+          name: allure-results
           path: allure-results
 
   publish-report:
