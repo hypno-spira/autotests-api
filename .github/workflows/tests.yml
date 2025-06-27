@@ -70,7 +70,7 @@ jobs:
     steps:
         # 1. Шаг для загрузки папки allure-results, сохраненной в предыдущей джобе
         - name: Download folder with Allure results
-          uses: actions/upload-artifact@v4.3.0
+          uses: actions/download-artifact@v4.3.0
           with:
             name: allure-results
 
