@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6374b731-bb4a-45c5-8da3-877481d57437' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjE5LjQxMzU0OSIsInVzZXJfaWQiOiI4NDY0NmYzMS1mMDMwLTQxOWYtODBkNi0wYjQ1ZDA0ODA5YWEifQ.dHgMglAgwv7mPsgEMgVuTtG692fgEfxlNq8ZMxbMj9o' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interest moment approach if blue government they.","maxScore":88,"minScore":30,"description":"Sign great when case protect heavy white. Fly if prove time want.\nCertainly build little charge. Already drop star.\nDream bill anyone prove blood. Without even mean.","estimatedTime":"1 weeks"}'

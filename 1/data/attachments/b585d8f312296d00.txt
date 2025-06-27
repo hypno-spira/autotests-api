@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjE4Ljc4NjM3MSIsInVzZXJfaWQiOiIzNWIzMzlmYS00NzIyLTQwMjMtOTVkZS01NDdiNTI2YzllYTQifQ.m1y16EEcZvonKYMtHPnezMOkWZbtTOlyjuqGbQ3GzaU' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney return raise occur wide.","maxScore":90,"minScore":9,"description":"Individual two short series.\nIndividual poor the best. Control local issue. Throw trip idea sign thousand against.","estimatedTime":"6 weeks","previewFileId":"49e907d1-7626-44df-be09-346bc0f14dcb","createdByUserId":"35b339fa-4722-4023-95de-547b526c9ea4"}'

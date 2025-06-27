@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjIwLjA1ODMwMSIsInVzZXJfaWQiOiIyMzM0YWIzMy01YTYxLTQyYmQtYjJlNy0yMjYxNmQ1YjhlZGIifQ.UpAQMn6ENrhBFmN5859tXahJ5oqAKHvDPmfd0IcuvXQ' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Staff value story name spring reason environmental.","maxScore":85,"minScore":4,"description":"Medical leave kind they ahead break something. Media system possible thing five identify modern already. Federal option television on.","estimatedTime":"8 weeks","previewFileId":"eb13228d-50b1-4e59-b421-9c3e1ad2e36f","createdByUserId":"2334ab33-5a61-42bd-b2e7-22616d5b8edb"}'

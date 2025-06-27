@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjIxLjIzNDM2MyIsInVzZXJfaWQiOiJmMmEwNzA4Mi0wNzQxLTQ4ZTgtYjAwOC01YzlhNTllNjUwYTQifQ.K2yNtBifpbDv4LvNmnJUwcBYln0QjXIKVzNBUU6EVoA' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Keep leg beyond relationship everybody.","maxScore":100,"minScore":18,"description":"History join box scene. Situation radio rock politics movement company fill. Be beat upon kid mouth effort choice.","estimatedTime":"8 weeks","previewFileId":"fc28d570-3ee8-4c6c-97c9-d7917c38a3ad","createdByUserId":"f2a07082-0741-48e8-b008-5c9a59e650a4"}'

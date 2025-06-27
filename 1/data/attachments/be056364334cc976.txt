@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjIwLjY0MTc0MyIsInVzZXJfaWQiOiI2OTYyMjEyZi0yMGNmLTRkMTMtYTllMS02ZjEzZjIzZDQwYTAifQ.rSecXYto6fbRAEYrgrR_r4KA1L80SX3Cv2UI9rrrTp0' \
+  -H 'content-length: 447' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve read agreement remain American thought first.","maxScore":58,"minScore":7,"description":"Interest but character under position. Test especially however support world agency.\nBlood specific vote forward. Support source development along career whose just. Policy team job your then series.","estimatedTime":"5 weeks","previewFileId":"9457ad70-70ad-46b3-a656-5bfffa811b6f","createdByUserId":"6962212f-20cf-4d13-a9e1-6f13f23d40a0"}'

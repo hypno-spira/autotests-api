@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjIxLjIzNDM2MyIsInVzZXJfaWQiOiJmMmEwNzA4Mi0wNzQxLTQ4ZTgtYjAwOC01YzlhNTllNjUwYTQifQ.K2yNtBifpbDv4LvNmnJUwcBYln0QjXIKVzNBUU6EVoA' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Set write oil item.","courseId":"ddf233de-514b-4070-88ef-7d2201c881ef","maxScore":79,"minScore":10,"orderIndex":86,"description":"Name for that. Strong no onto share character society sign within.\nGun onto everyone throughout face. Study dog catch behind stop point happen. Picture bank turn Congress.","estimatedTime":"9 weeks"}'

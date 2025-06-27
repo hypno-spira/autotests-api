@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjIyLjQ2ODA5NiIsInVzZXJfaWQiOiI1YmU1NDNiZS03MjA0LTQ2N2QtYWRjNS1kZGFmNGRkMzMzODAifQ._2-VgzHvkDVtEqI3V_K96I3cCHawhAOrpoCOCeJQi04' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would field talk decide key exactly.","maxScore":86,"minScore":25,"description":"Candidate charge avoid month value pretty garden. Up lead design few until away while option.","estimatedTime":"9 weeks","previewFileId":"40276a04-0b50-4089-84bc-d2769419796d","createdByUserId":"5be543be-7204-467d-adc5-ddaf4dd33380"}'

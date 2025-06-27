@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjIzLjA4Mzc1NCIsInVzZXJfaWQiOiI5ZWU0ZmYyNS0yNGRiLTRkZjgtYTFmMS01ZmZhMThmZTBhYzMifQ.6d1kh4aEvpElYxzwEf0slO3WwTD_ClVhKr0TlSPe6-w' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Red see expect fill capital.","maxScore":78,"minScore":23,"description":"Senior baby outside. Share especially rest foot church argue hope.\nArticle industry hotel of father this rise. Not stand full today study it. Rather exist hard put.","estimatedTime":"1 weeks","previewFileId":"95d6ba72-9db8-4e9d-93b4-01bd2fba62e9","createdByUserId":"9ee4ff25-24db-4df8-a1f1-5ffa18fe0ac3"}'

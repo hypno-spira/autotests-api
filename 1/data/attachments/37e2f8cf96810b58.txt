@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI3VDEwOjExOjIxLjgyMjU1MiIsInVzZXJfaWQiOiI5NWJlY2M5Ni1iNjQ4LTQwZTQtYmRhMC1kODg5YTU0ZDhkMDQifQ.bWwrvcI3h396jLzJo72daO9TwMd32qWgJOk03X3SAps' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tree physical station never next central civil PM.","maxScore":92,"minScore":16,"description":"Heart leave however civil.\nOutside follow position you understand walk. Though dog current example.\nGrowth price success man.","estimatedTime":"8 weeks","previewFileId":"64a3b8e3-7cf6-4f33-86e8-4aeb101603d9","createdByUserId":"95becc96-b648-40e4-bda0-d889a54d8d04"}'
