@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjE4OjE3Ljk2ODUxMiIsInVzZXJfaWQiOiJmNWUxOWU1My04MGE0LTQ2ZDMtODAzMC1kZWUyM2ZlYzQzMmQifQ.44h_y0T330W7TKSO640BYin_GmcIIn6500wta6d0tes' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting near physical economic blood new professional role.","maxScore":93,"minScore":6,"description":"Available pay pull smile behavior trial bed teach. Compare party authority.\nAttorney activity include truth such. Force loss item apply.","estimatedTime":"6 weeks","previewFileId":"9c29137f-dcf8-4729-8233-a120cd194fe4","createdByUserId":"f5e19e53-80a4-46d3-8030-dee23fec432d"}'

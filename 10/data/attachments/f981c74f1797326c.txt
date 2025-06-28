@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjE4OjE4LjI0MTQ3NCIsInVzZXJfaWQiOiI1NWY1NTk2ZC1lYWQyLTQxYzUtYTQ3Mi0wZWIzOGZkZTVjMjkifQ.EFhGcd0V0vJxTA895qvF4yXLq8GGfqq_1D7iMg-1M2c' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Challenge management money this.","maxScore":72,"minScore":15,"description":"Recently officer social my who cell production. Change church her not yourself true meet. Thousand indicate assume rise work hit only.","estimatedTime":"6 weeks","previewFileId":"d6483919-8171-4333-bcbf-6dffdbb54d7b","createdByUserId":"55f5596d-ead2-41c5-a472-0eb38fde5c29"}'

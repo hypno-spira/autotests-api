@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/438add31-1f5e-4f2b-8987-82bd510c9736' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjE4OjE2Ljc2OTEzMyIsInVzZXJfaWQiOiJlMjljYTZjOC0yMGQ3LTRkZDctODc0Zi1jNzBiNDE4ODIxOTAifQ.p8ri7gg5VHQ5QKXY5By9F9LtUJytHE9j-VCM3v2oGQQ' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Security could we radio also.","maxScore":50,"minScore":22,"description":"Continue put choose health how woman some. Just her door stay. Move yard choose.\nCollection card suddenly dog. Skin energy control realize. Only day teach available per subject feel when.","estimatedTime":"2 weeks"}'

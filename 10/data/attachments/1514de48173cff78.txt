@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjE4OjE1LjYyNzAzMiIsInVzZXJfaWQiOiIxYjBmZDU1MC1lNWI4LTRkY2QtODk0OC02ODEyN2EzOTNkNTAifQ.n-XGnu4tnkFCfpA3Hu-j1Gbuk2kCvSqihpzB-c3RW3c' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eat school deal end other.","maxScore":79,"minScore":10,"description":"Something front find argue take may career. Do less forward size seat. Sound early enjoy sound imagine any yourself site.\nAmong single list attorney thing take. Read day meet live.","estimatedTime":"8 weeks","previewFileId":"06d4fbed-1c1d-4b92-9916-86128cd7a9a7","createdByUserId":"1b0fd550-e5b8-4dcd-8948-68127a393d50"}'

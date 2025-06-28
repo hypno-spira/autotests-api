@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjE4OjE5LjQyMjY5NSIsInVzZXJfaWQiOiI5MTJhNzgzMi1hNjdhLTQ2NzYtYWRhYi02YzVhY2Q0YTUwZTEifQ.896rnNY81Ki2CjtKtXr85RtMBTX06moQZ9bwUiUQh6g' \
+  -H 'content-length: 449' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change teach top act foreign employee budget environment.","maxScore":56,"minScore":16,"description":"Activity away poor ability society political fight it. Be less large save my indeed military. Occur career car stop Mr history fall.\nPractice hour hear respond program. Teach staff writer trouble.","estimatedTime":"3 weeks","previewFileId":"918eebce-9172-480a-80bb-e92318b93083","createdByUserId":"912a7832-a67a-4676-adab-6c5acd4a50e1"}'

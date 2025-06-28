@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ea3408f7-9450-4d59-a7db-9d5f73405092' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjE4OjE4LjI0MTQ3NCIsInVzZXJfaWQiOiI1NWY1NTk2ZC1lYWQyLTQxYzUtYTQ3Mi0wZWIzOGZkZTVjMjkifQ.EFhGcd0V0vJxTA895qvF4yXLq8GGfqq_1D7iMg-1M2c' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan month officer never.","maxScore":72,"minScore":26,"orderIndex":96,"description":"Try election out result where find. Than local hit skin there two.\nNear star fact style wear site. Grow minute actually need.","estimatedTime":"10 weeks"}'

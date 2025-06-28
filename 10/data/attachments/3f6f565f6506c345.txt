@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjE4OjE5LjE0OTc5NSIsInVzZXJfaWQiOiIxZGMwYWE0Yi1lNGY3LTQ2ZWUtYTg3Yy0xY2NkNDg0ZGNlMzEifQ.hv8HfH39hhoL-qx668DWUXkKadM16AfHjL9FZk_jq6c' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"By television billion tonight role.","maxScore":51,"minScore":12,"description":"Energy picture she first. Keep black space fly data specific.\nGame chair difficult may sign tend. Company moment chair southern.","estimatedTime":"3 weeks","previewFileId":"af9fa88e-dc3e-4736-9d22-7fff6b215786","createdByUserId":"1dc0aa4b-e4f7-46ee-a87c-1ccd484dce31"}'
