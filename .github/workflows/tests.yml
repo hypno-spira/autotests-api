@@ -56,7 +56,37 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2 
 
-      # 8. Шаг для сохранения папки allure-results как артефакта
+      # 8. Восстанавливаем историю покрытия из кеша
+      - name: Restore Coverage history
+        uses: actions/cache/restore@v4
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history-
+
+      # 9. Генерируем HTML-отчет и обновляем историю
+      - name: Generate Coverage report
+        run: |
+          swagger-coverage-tool save-report
+
+      # 10. Сохраняем историю обратно в кеш
+      - name: Cache Coverage history
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+
+      # 11. Загружаем HTML-отчет как артефакт
+      - name: Upload Coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage.html
+
+      # 12. Шаг для сохранения папки allure-results как артефакта
       - name: Save folder with Allure results
         uses: actions/upload-artifact@v4.6.2
         with:
