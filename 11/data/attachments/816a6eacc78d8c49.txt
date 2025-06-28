@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjIzLjI3MDU3MSIsInVzZXJfaWQiOiJlZjRiNDk1MC04M2Q4LTQ0NmUtYmIxMy01MWU1MDNjNWM4MDQifQ.kh22nQVAkhD-mSG7kAUJlazBqmc3aijw3FG8ZRvHfSc' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand small generation class recent.","maxScore":93,"minScore":4,"description":"Mouth both key lose open. When mean will message likely here.\nMr question find back mission fund. Involve yourself reveal start south management wall agency. Card happen service his sort.","estimatedTime":"1 weeks","previewFileId":"7f65d195-5414-4757-b130-54042c0d57e7","createdByUserId":"ef4b4950-83d8-446e-bb13-51e503c5c804"}'

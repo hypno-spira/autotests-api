@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjE5LjYyODc2OSIsInVzZXJfaWQiOiI1NWRjZjM4Ni1kYzIwLTQxZDctYTdkYy00YzY1NzkzN2VlYTUifQ.sT2YmGwPC0t5jxdyCLIrY9o_VKb_30IQZs7P3sC5d2E' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview develop relate return cost defense food.","maxScore":94,"minScore":2,"description":"Yeah common live expert. Nice whose fund. Central law fight bed close method question product.\nCentral political light thing fill. Discover onto gun line now property. Take road visit box surface.","estimatedTime":"8 weeks","previewFileId":"2a6223b3-555c-4d63-84cc-e472ae9e23e2","createdByUserId":"55dcf386-dc20-41d7-a7dc-4c657937eea5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjIyLjAzNTEyNiIsInVzZXJfaWQiOiJhNDc4N2JmOC02YTk3LTRjMDEtYjQ1NC1mMDI2ODJhZmY1N2YifQ.atHnMX7GBOZK1rpStngdiTR8Oi6tl51EOZ9W05PoJXM' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She citizen the never country.","maxScore":52,"minScore":27,"description":"Will discuss other focus these project. Green issue machine thank assume. Low like plant table see.\nProbably level significant true. Blue man laugh.","estimatedTime":"2 weeks","previewFileId":"7a6d38bb-b983-4ee2-b4fe-35740f468bbd","createdByUserId":"a4787bf8-6a97-4c01-b454-f02682aff57f"}'

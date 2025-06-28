@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjIwLjIyMTgwMCIsInVzZXJfaWQiOiJkYjkwZTY3Ni1jNTZiLTQ2OTktYmNlNC0yNDlmMzA3MTBlMTYifQ.V_HUXHtZV_QQDbO5RFBGWn5DDzMbNwBK657AvuHtFCU' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free fall strategy difference.","maxScore":65,"minScore":12,"description":"Effect democratic total beyond performance simple.\nSimilar upon TV audience by. Watch ask former process. Per deal goal clear take ever easy.","estimatedTime":"5 weeks","previewFileId":"599fb727-3221-4f1d-a2b3-ca17adca7883","createdByUserId":"db90e676-c56b-4699-bce4-249f30710e16"}'

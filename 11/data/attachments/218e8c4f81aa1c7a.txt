@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e71979e4-051c-470b-9a7c-4bc805c7c573' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjIwLjIyMTgwMCIsInVzZXJfaWQiOiJkYjkwZTY3Ni1jNTZiLTQ2OTktYmNlNC0yNDlmMzA3MTBlMTYifQ.V_HUXHtZV_QQDbO5RFBGWn5DDzMbNwBK657AvuHtFCU' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional attack trial company agreement day democratic.","maxScore":93,"minScore":25,"description":"Central finish data center. Arrive ground civil box recently population sister.\nAdministration land glass common debate military change. Challenge final statement PM sense measure turn government.","estimatedTime":"9 weeks"}'

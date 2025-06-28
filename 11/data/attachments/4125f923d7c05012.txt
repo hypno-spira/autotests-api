@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjIyLjY4ODQyMCIsInVzZXJfaWQiOiIxZDllMGRiZi02ZDhkLTQ4ZjUtOTRjNi0wNmFhNzU0ZDI5MTcifQ.GtkjDLvb3mhqAkz7E12PArXu6_DVwQzVxOoOTZlgiak' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White tonight close someone water writer story.","maxScore":59,"minScore":9,"description":"Fast least pressure agency guy culture but.\nPoint me consumer write since present particularly. Foot your happen. Always learn ability before agent seven.","estimatedTime":"1 weeks","previewFileId":"ef16618b-d6ce-4273-9e33-cb6eec0b88f2","createdByUserId":"1d9e0dbf-6d8d-48f5-94c6-06aa754d2917"}'

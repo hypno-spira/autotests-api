@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjIwLjg2NDA3MSIsInVzZXJfaWQiOiI3NzQ2YmU1OS1mZmFkLTQxOWUtYjllMy0wZTM4ZWQxMmNjZmUifQ.1gHtQOOxPW1p95mE9mCrmg0JIdAiHeTI7moL8-s7ZFk' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cell many charge network table bit.","maxScore":65,"minScore":20,"description":"Maintain walk woman part thing international much. Event watch specific yeah consumer area. Natural fund each individual. Standard before everybody public purpose personal.","estimatedTime":"8 weeks","previewFileId":"8479f775-8446-4520-b890-45648139b41d","createdByUserId":"7746be59-ffad-419e-b9e3-0e38ed12ccfe"}'

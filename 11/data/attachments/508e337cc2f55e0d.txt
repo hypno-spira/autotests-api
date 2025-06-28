@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDE0OjIxOjIzLjkzMzExMiIsInVzZXJfaWQiOiI0YWZlODhiMi1mNjE4LTQwMGYtYjZhNy05ZGZlZjI3MWU2NTEifQ.P9YknS0loSiMn1zNnxCXO9AG0nUiENO4d0buIAgBT4Y' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area apply reveal back probably account.","courseId":"1f17a2e2-da6f-49b6-8916-a71dd560be97","maxScore":57,"minScore":25,"orderIndex":39,"description":"According affect year throughout tax because forward. Movement camera lay worry section.\nBillion suffer very magazine short. Language wife require street cup discussion.","estimatedTime":"2 weeks"}'
