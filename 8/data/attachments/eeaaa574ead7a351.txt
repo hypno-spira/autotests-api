@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU1OjU4LjMzMzU4OSIsInVzZXJfaWQiOiI5YjY2ZDIyYS1kZjljLTQ3MTAtOThiMS0zYWU0M2U4YWQ4ZmEifQ.v-4qspv1nw4Hpas1RXirmZRdDvc9BAMayVRf04lfrrA' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Land order early media sit.","maxScore":59,"minScore":30,"description":"World east social person less. Common attorney arrive.\nImprove manager stuff alone claim. Small rich share southern commercial four. Wife kitchen community military.","estimatedTime":"6 weeks","previewFileId":"4ec523f2-4fa9-4e67-8603-0ec1639722ef","createdByUserId":"9b66d22a-df9c-4710-98b1-3ae43e8ad8fa"}'

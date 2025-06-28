@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU1OjU3LjY4Njg4NCIsInVzZXJfaWQiOiIyMGE4ZmVkOS0wNWM4LTRkZWQtODU5ZS0xZDNiNjlhY2FjMzMifQ.PqodW3pOasrjjz2Zr4nzq6nv2c2u9b4ZlZxFYqAXXwg' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment my time show wrong.","maxScore":72,"minScore":27,"description":"Hair deep away father. Finally part dream executive.\nWithin way health network kitchen memory stock. Reach hard identify great bed fact north. Every south hundred go far ahead stage.","estimatedTime":"7 weeks","previewFileId":"4767f1e9-6876-4f24-a958-b0f615528366","createdByUserId":"20a8fed9-05c8-4ded-859e-1d3b69acac33"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU1OjU3LjEwMjAxNyIsInVzZXJfaWQiOiI5NDcyNmE0Yi1hZWMwLTQ0NzItYWNlYS1jYTEzZGJhOGM0MjYifQ.CSiK9rDfzXzqJdIfWt8gdFvvSfgAF59wDbSpTAr-K7c' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody pattern discuss expert property we.","maxScore":85,"minScore":24,"description":"Example position interesting word hair finally. Tree guess first about. Fear general only garden.","estimatedTime":"6 weeks","previewFileId":"a4c80d89-44d1-4f42-ae6f-06a62e965ecf","createdByUserId":"94726a4b-aec0-4472-acea-ca13dba8c426"}'

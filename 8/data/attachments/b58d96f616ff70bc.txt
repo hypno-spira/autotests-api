@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU1OjU5LjQ5OTk2NCIsInVzZXJfaWQiOiI3ZDhmZWRmNS1iOWEyLTQ1YzktOWJjMS1jMjdlOTg2MTg4NWIifQ.hGneW5MBCMp57CRA6kGzSgTZslgTz7kwa8ZTC2ADkxs' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hard say edge.","maxScore":88,"minScore":10,"description":"Determine think art star. Project fund last. Republican community receive range consumer product. Seat education Mr place.\nEye simply various current.","estimatedTime":"7 weeks","previewFileId":"b2b2251b-a94b-4e97-b08b-2036137b30fb","createdByUserId":"7d8fedf5-b9a2-45c9-9bc1-c27e9861885b"}'

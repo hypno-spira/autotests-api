@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU2OjAxLjQyMTU4OSIsInVzZXJfaWQiOiI1ZThhN2E1My02ZGE4LTQ1YTEtOWRiMi1kNzhkNTE2ZGU5ZGEifQ.ZEvdI-7Aj_-is0l1XuI95mGbgSFljltDOakm6ARa4-g' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out life compare size chair month.","maxScore":96,"minScore":15,"description":"Provide yard song authority.\nSystem lawyer growth raise step never serve far. Guy short eye brother everything.\nManager list very industry Democrat. Full can student population.","estimatedTime":"3 weeks","previewFileId":"7a8be5f0-a3ed-452b-8380-863058a1a297","createdByUserId":"5e8a7a53-6da8-45a1-9db2-d78d516de9da"}'

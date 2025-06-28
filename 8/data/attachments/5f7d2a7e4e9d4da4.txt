@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9cb51f7c-6071-44cf-a603-f0fb161cfbf3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU1OjU3LjY4Njg4NCIsInVzZXJfaWQiOiIyMGE4ZmVkOS0wNWM4LTRkZWQtODU5ZS0xZDNiNjlhY2FjMzMifQ.PqodW3pOasrjjz2Zr4nzq6nv2c2u9b4ZlZxFYqAXXwg' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase pick huge voice.","maxScore":71,"minScore":2,"description":"Human country quickly relate financial project almost. Other end film election ever commercial pretty. Thought lot together at.","estimatedTime":"9 weeks"}'
