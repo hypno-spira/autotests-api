@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/807416ef-864d-43cf-a32e-372fe2eb186c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjUwLjM5MjMwOSIsInVzZXJfaWQiOiJjYmNhMDMwZC1kZjViLTQ5NjYtYWI3NC1mZWIwODRiZGQ5ZWQifQ.PgrZ3HoSj5fTA8K5TmFuh1riGXBeaLMEJSC_wV044TI' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever particular trip team medical heavy.","maxScore":70,"minScore":3,"description":"Traditional property may improve peace. American stay heavy history hear forget. Maintain positive ground water tree.\nScore available way successful. Term especially option task learn least leave.","estimatedTime":"3 weeks"}'

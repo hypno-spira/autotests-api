@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjUzLjQ1MzU4OCIsInVzZXJfaWQiOiJhZDJjMWM3MS0zMjY3LTQxODgtYWYzMS1jNTBhMjQ1ODcwOGYifQ.jxzqlapO1Nb2th6XMnUMo74MKu7ueucobn49fARTFLo' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business politics sell thing develop job.","courseId":"f2587b7d-c606-4770-b833-f8265ce8a1ff","maxScore":68,"minScore":15,"orderIndex":82,"description":"Attention professional friend early arm. Instead shake down per admit scientist else.","estimatedTime":"6 weeks"}'

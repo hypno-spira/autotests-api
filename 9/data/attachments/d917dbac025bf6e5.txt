@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjU0LjA1ODQwNyIsInVzZXJfaWQiOiJmOTAyMjRkYi0yMGE5LTQ3YWUtODBjNC03MDExY2UzZTVjYmYifQ.vAgUCmQV6NjIklJ-N0f4yUycEtt_Nm-jm6DJFc2lFC4' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek like bad beautiful.","courseId":"f2036168-6c56-4f74-85db-9d2a979d11eb","maxScore":82,"minScore":7,"orderIndex":91,"description":"Agent fast successful become view produce strong. Body learn commercial model open program fine contain.\nMatter too possible avoid. Feel specific cultural of win cup.","estimatedTime":"2 weeks"}'

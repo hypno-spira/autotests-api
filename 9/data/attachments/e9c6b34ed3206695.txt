@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjUxLjA1MzQ2NiIsInVzZXJfaWQiOiI5N2JkOTk5Zi01NDRmLTQ3NzEtYjkwMC1iNDI4OGEzNjY1ZmIifQ.aQuwnhN0KJypvA4xqMYhvuZQyZZgHkULl1K82X2Epto' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bring reflect management not owner couple development window.","maxScore":77,"minScore":25,"description":"Environment sell focus news yourself however market strategy. Environmental camera force plan several or his. Plan method within always loss.","estimatedTime":"10 weeks","previewFileId":"0580f221-955d-4534-8693-7d9e09dc63ee","createdByUserId":"97bd999f-544f-4771-b900-b4288a3665fb"}'

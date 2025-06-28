@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjUxLjYzNjcxOSIsInVzZXJfaWQiOiI2NzM4MWQzOC1jNjdiLTQxNWUtYmRiOS1jMDlkYTE5MGYwYTcifQ.QDmk1GFiBCaW0cWTkRa5Sv-28Yd62koY9bbogJvxLtY' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact fund may PM past about indicate listen.","maxScore":56,"minScore":25,"description":"A since too recognize structure magazine. Pick here character out industry per. Own memory note something every travel spend.\nLetter front claim though local. Step American huge.","estimatedTime":"8 weeks","previewFileId":"11bcee6a-b172-4ed9-81bf-c074327e78eb","createdByUserId":"67381d38-c67b-415e-bdb9-c09da190f0a7"}'

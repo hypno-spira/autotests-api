@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjQ5LjgxMjU3OSIsInVzZXJfaWQiOiI3MzM0Nzc3Ny1hNWMyLTQyMjQtYjE2MC02YjBkOGU3YWVhZDAifQ.1TnvoIw7dHdSov8Iysca76GImXY2DGafFr95c3hTces' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough its kid might laugh.","maxScore":60,"minScore":22,"description":"Investment community western people turn dark success attention.\nVery show southern possible. Like scene gas someone wide fear. Guy themselves space five voice month sell measure.","estimatedTime":"7 weeks","previewFileId":"1cc3607b-52fa-4982-82ca-78848ec22c89","createdByUserId":"73347777-a5c2-4224-b160-6b0d8e7aead0"}'

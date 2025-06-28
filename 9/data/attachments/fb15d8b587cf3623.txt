@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjUwLjM5MjMwOSIsInVzZXJfaWQiOiJjYmNhMDMwZC1kZjViLTQ5NjYtYWI3NC1mZWIwODRiZGQ5ZWQifQ.PgrZ3HoSj5fTA8K5TmFuh1riGXBeaLMEJSC_wV044TI' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fly news space whole turn anyone clearly.","maxScore":54,"minScore":7,"description":"Wear provide partner candidate sometimes challenge. Education learn rest east.\nSomething TV yet it season follow year.\nUs cause since develop win may be. Clearly back ready approach myself.","estimatedTime":"7 weeks","previewFileId":"63c5ccea-3b52-455f-995c-fcc45ffb4d24","createdByUserId":"cbca030d-df5b-4966-ab74-feb084bdd9ed"}'

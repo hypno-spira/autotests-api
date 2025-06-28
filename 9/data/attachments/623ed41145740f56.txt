@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTI4VDEzOjU5OjUyLjgyMTYyOSIsInVzZXJfaWQiOiI1ZmFiZWJjOS1kMDc2LTQwYTAtYjM3YS02YWM1M2Q3ZWExYzEifQ.lc606GMykOtmUZlpmFmX1beLVFhtIs5yg6a1zMkE0LM' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leader agent may boy.","maxScore":94,"minScore":14,"description":"Ok seven notice political result. Town almost institution investment investment.","estimatedTime":"6 weeks","previewFileId":"ee4f30c3-92c1-4525-ba1b-d931385f2d6a","createdByUserId":"5fabebc9-d076-40a0-b37a-6ac53d7ea1c1"}'
