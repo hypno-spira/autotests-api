@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDEzOjM0OjUyLjQyMDIzMyIsInVzZXJfaWQiOiJjOGMyODc3OS02NGIwLTQxMzYtODQ0Yy0yZWEyZDdmYjc3N2UifQ.MnnObwGMlPIaABspfRIbPJwQlJrEsfOs6-RvCEXea64' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thousand admit drop mention down.","maxScore":73,"minScore":5,"description":"Activity stay he money it about rest. Blood bar color require card standard moment.","estimatedTime":"4 weeks","previewFileId":"b8e182ea-2d53-4e06-86dd-547d17868d3d","createdByUserId":"c8c28779-64b0-4136-844c-2ea2d7fb777e"}'

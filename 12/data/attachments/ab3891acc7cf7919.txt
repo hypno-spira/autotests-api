@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDEzOjM0OjUwLjA0MzUwOCIsInVzZXJfaWQiOiI4OWIzYjljMS04YmRkLTRkZGYtODkyOS02ZjYzNDAzZDJkZTUifQ.F1GlwjPkWggC1xF9BJXIij0mWsHB2QpXRxqYAEtbAmY' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve run food exactly.","maxScore":97,"minScore":22,"description":"Nation so at sing significant. The interview often wall. Memory grow night series artist hospital. Inside tell every.\nCommon billion rate wall. Us information natural message.","estimatedTime":"7 weeks","previewFileId":"d18967d4-55e6-4dda-ac0a-d6668cda1f52","createdByUserId":"89b3b9c1-8bdd-4ddf-8929-6f63403d2de5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDEzOjM0OjQ5Ljc2ODkwNCIsInVzZXJfaWQiOiIzMjBhOTRlYS1lMzYzLTQ1NTgtOGMwMi1iOTg1ZWY3OWE0YTQifQ.iMNTMhXzrZabx5EJKN85z14e4I6-KayEuYCgEDCk9OE' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Allow myself director father technology sense.","maxScore":59,"minScore":8,"description":"Idea simple above single once particularly today trade. Election wish entire. Those expert response hair. Interview all behavior along.","estimatedTime":"10 weeks","previewFileId":"106d6469-e58c-4201-9a4a-868c10a883f5","createdByUserId":"320a94ea-e363-4558-8c02-b985ef79a4a4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDEzOjM0OjUyLjE0NzE4MCIsInVzZXJfaWQiOiJhMjA4MDAyNi1kNDYzLTQ3ZTYtOTllMi02NzMxZGJiMjFkOTgifQ.HQg8oVMjquzSPityr-hPyWDC9rfuOOHqLXnTON6lFM0' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Money scientist resource partner sell behavior.","courseId":"d5bcfaa1-2199-48e6-96f5-bae01bb5e3a0","maxScore":82,"minScore":10,"orderIndex":31,"description":"Total necessary concern nice ball newspaper century. Force serve market from describe member.\nEast foreign ever guy throughout bit game. Leave really upon. Yes data him next thing case realize.","estimatedTime":"10 weeks"}'

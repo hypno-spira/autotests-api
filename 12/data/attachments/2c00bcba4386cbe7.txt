@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDEzOjM0OjQ4LjYyNDgwMSIsInVzZXJfaWQiOiJjMmYxMmRkOS0wMzcyLTRjNjgtOTNkMS00MGRmODM1ZjJjYzAifQ.n0KvITJWav5D7jJV2_nVEwDo3PvO06VVEdBrpXElRVU' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Once teacher party reality science great often.","maxScore":95,"minScore":1,"description":"Me suggest score share. Along power gun either.\nTogether everything alone score evidence. Call finish oil easy financial protect need. Charge chair weight and operation.","estimatedTime":"4 weeks","previewFileId":"3cbe3824-9c3f-44bc-af9c-791313490c52","createdByUserId":"c2f12dd9-0372-4c68-93d1-40df835f2cc0"}'

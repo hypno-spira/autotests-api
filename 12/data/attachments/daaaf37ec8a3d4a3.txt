@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDEzOjM0OjUyLjE0NzE4MCIsInVzZXJfaWQiOiJhMjA4MDAyNi1kNDYzLTQ3ZTYtOTllMi02NzMxZGJiMjFkOTgifQ.HQg8oVMjquzSPityr-hPyWDC9rfuOOHqLXnTON6lFM0' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Of law science.","maxScore":91,"minScore":14,"description":"Also guy drug include technology. Memory citizen true they.\nQuite someone still long truth design defense stand. Recently middle lot participant class. Team participant two present government.","estimatedTime":"7 weeks","previewFileId":"93219b5d-3591-4679-85dc-c146f9f8f43f","createdByUserId":"a2080026-d463-47e6-99e2-6731dbb21d98"}'

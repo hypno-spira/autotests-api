@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTAzVDEzOjM0OjUwLjk2MTUzMyIsInVzZXJfaWQiOiI2MmNiODdkMS03MWY0LTQ2YTItOTIyMC0zN2UxN2UyMjY2YjcifQ.Hq3JUnhQScYWUT-PzLc3FZ1GrcM9XgB21VwKYf_wKjE' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit inside face.","maxScore":88,"minScore":21,"description":"Economic analysis both light ten speak son. Rest huge age off table yourself visit. Really Congress trouble he.\nDirection mention occur letter risk until. Notice wonder eye.","estimatedTime":"5 weeks","previewFileId":"ba39c445-7a62-4fb3-97fa-41032a8b58a0","createdByUserId":"62cb87d1-71f4-46a2-9220-37e17e2266b7"}'
